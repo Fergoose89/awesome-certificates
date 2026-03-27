@@ -1,0 +1,69 @@
+# Configuration for the energy anomaly tracker.
+# You can edit this file without changing the Python code.
+
+# Minimum fuzzy score (0-100) needed to auto-accept a site name match.
+site_match_threshold: 85
+
+# Canonical site names used as the matching dictionary.
+canonical_site_names:
+  - Manchester Leisure Centre
+  - Birmingham Aquatics Centre
+  - Leeds Sports Complex
+  - Liverpool Community Pool
+  - Bristol Active Hub
+  - Sheffield Wellness Centre
+
+# Manual exact replacements are applied before fuzzy matching.
+# Keys are compared in normalized lowercase form.
+manual_site_mappings:
+  manc leisure ctr: Manchester Leisure Centre
+  leeds sport complex: Leeds Sports Complex
+  liverpool pool: Liverpool Community Pool
+
+# The script tries these possible source column names (case-insensitive).
+column_aliases:
+  site_name:
+    - site
+    - site name
+    - location
+    - premise
+    - premise name
+  mpan:
+    - mpan
+    - mpan core
+    - electricity mpan
+  mprn:
+    - mprn
+    - gas mprn
+    - gas meter point
+  issue_description:
+    - issue
+    - issue description
+    - anomaly
+    - alert
+    - comments
+
+# Issue categories are matched in order.
+issue_category_rules:
+  Waste:
+    - waste
+    - excessive
+    - high consumption
+    - out of hours
+  Times:
+    - schedule
+    - timing
+    - timer
+    - timeclock
+    - run hours
+  Baseload:
+    - baseload
+    - overnight load
+    - night usage
+    - constant usage
+  Data Gap:
+    - missing data
+    - data gap
+    - no reads
+    - flatline
+    - meter offline
