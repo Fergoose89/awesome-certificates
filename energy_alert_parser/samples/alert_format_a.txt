@@ -1,0 +1,12 @@
+Subject: Alert - Overconsumption at Site ALP102
+Date: Tue, 25 Mar 2026 07:15:00 +0000
+
+Site Code: ALP102
+Site Name: Alpha Retail Park
+MPAN: 12 3456 7890 123
+Issue Type: Overconsumption
+First Observed: 24/03/2026
+Daily Cost: £145.90
+Rank: 3
+
+Consumption has been higher than baseline for 48 hours. Investigate HVAC schedule and overnight loads.

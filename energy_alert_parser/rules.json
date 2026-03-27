@@ -1,0 +1,39 @@
+{
+  "field_patterns": {
+    "site_code": [
+      "(?im)^\\s*site\\s*(?:code|id)\\s*[:\\-]\\s*([A-Z0-9\\-]{2,})",
+      "(?im)\\bsite\\s*([A-Z]{2,}\\d{1,})\\b"
+    ],
+    "site_name": [
+      "(?im)^\\s*site\\s*name\\s*[:\\-]\\s*([^\\n\\r]+)",
+      "(?im)^\\s*location\\s*[:\\-]\\s*([^\\n\\r]+)"
+    ],
+    "mpan_or_mprn": [
+      "(?im)^\\s*(?:mpan|mprn)\\s*[:\\-]\\s*([A-Z0-9 ]{6,})\\s*$",
+      "(?im)\\b(?:MPAN|MPRN)\\s*[:\\-]?\\s*([A-Z0-9 ]{6,})\\s*$"
+    ],
+    "issue_type": [
+      "(?im)^\\s*(?:issue\\s*type|alert\\s*type|problem)\\s*[:\\-]\\s*([^\\n\\r]+)",
+      "(?im)\\b(overconsumption|meter\\s*offline|data\\s*gap|unexpected\\s*usage|energy\\s*spike)\\b"
+    ],
+    "first_observed_date": [
+      "(?im)^\\s*(?:first\\s*observed|detected\\s*on|started)\\s*[:\\-]\\s*([^\\n\\r]+)",
+      "(?im)\\b(?:on|since)\\s+([0-3]?\\d[/-][01]?\\d[/-](?:\\d{2}|\\d{4}))"
+    ],
+    "daily_cost": [
+      "(?im)^\\s*(?:daily\\s*cost|estimated\\s*daily\\s*cost|cost\\s*per\\s*day)\\s*[:\\-]?\\s*[\u00a3$\u20ac]?\\s*([0-9]+(?:[.,][0-9]{1,2})?)",
+      "(?im)[\u00a3$\u20ac]\\s*([0-9]+(?:[.,][0-9]{1,2})?)\\s*(?:per\\s*day|daily)"
+    ],
+    "rank": [
+      "(?im)^\\s*rank\\s*[:\\-]\\s*([A-Z0-9#\\- ]+)",
+      "(?im)\\bpriority\\s*[:\\-]\\s*([A-Z0-9#\\- ]+)"
+    ]
+  },
+  "subject_issue_hints": {
+    "overconsumption": "Overconsumption",
+    "energy spike": "Energy spike",
+    "meter offline": "Meter offline",
+    "data gap": "Data gap"
+  },
+  "confidence_threshold": 0.75
+}
