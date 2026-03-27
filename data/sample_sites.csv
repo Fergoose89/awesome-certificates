@@ -1,0 +1,13 @@
+site_id,site_name,region,issue_type,status,estimated_cost_impact,opened_date,last_update_date,owner,notes_history
+S-101,Desert Ridge Solar,West,Underperformance,Open,182000,2025-12-20,2026-03-24,A. Kim,"2026-01-03: Inverter clipping detected | 2026-02-18: Vendor escalation opened | 2026-03-24: Site visit scheduled"
+S-102,Pine Junction Wind,Central,Turbine Outage,In Progress,236500,2025-11-05,2026-03-10,L. Chen,"2025-11-07: Main gearbox vibration alert | 2026-01-22: Temporary derate applied | 2026-03-10: Awaiting replacement parts"
+S-103,Harbor Storage Hub,East,Control System,Open,119000,2026-01-14,2026-03-15,R. Patel,"2026-01-20: EMS communication failures | 2026-02-04: Firmware patch unsuccessful | 2026-03-15: Root cause under review"
+S-104,Red Canyon Solar,West,Grid Curtailment,Open,98000,2025-10-02,2026-03-25,D. Brooks,"2025-10-10: Repeated curtailment windows observed | 2026-02-12: Utility meeting held | 2026-03-25: Dispatch strategy updated"
+S-105,North Valley Wind,North,Turbine Outage,Open,301000,2025-09-19,2026-03-05,M. Alvarez,"2025-09-21: Two turbines offline | 2025-12-01: Crane availability delayed | 2026-03-05: Restart plan pending"
+S-106,Blue Mesa Storage,South,Thermal Alarm,In Progress,87000,2026-02-01,2026-03-26,K. Johnson,"2026-02-05: Battery rack thermal alert | 2026-03-02: Cooling controls retuned | 2026-03-26: Performance stable under watch"
+S-107,Riverbend Solar,East,Tracker Failure,Open,143500,2025-12-10,2026-03-12,N. Singh,"2025-12-14: Tracker row misalignment | 2026-01-27: Spare actuators ordered | 2026-03-12: Install window missed"
+S-108,Golden Plains Wind,Central,Sensor Drift,Closed,76000,2025-08-28,2026-03-08,T. Walker,"2025-09-02: Nacelle sensor drift found | 2025-11-20: Calibration run complete | 2026-03-08: Case closed"
+S-109,Metro Peak Solar,South,Inverter Fault,Open,165800,2025-12-28,2026-03-11,E. Flores,"2026-01-04: Repeated trip events | 2026-02-16: Replacement module shipped | 2026-03-11: Awaiting commissioning"
+S-110,Oakline Storage,North,Capacity Fade,In Progress,154200,2025-10-22,2026-03-19,H. Park,"2025-11-02: Capacity test below target | 2026-01-15: Cell balancing sequence started | 2026-03-19: Updated degradation model"
+S-111,Summit Ridge Solar,West,Underperformance,Open,132900,2026-01-05,2026-03-06,J. Wright,"2026-01-10: String-level losses identified | 2026-02-21: Combiner inspection done | 2026-03-06: Pending remediation approval"
+S-112,Lakeside Wind,East,Turbine Outage,Open,211400,2025-11-17,2026-03-13,S. Murphy,"2025-11-20: Blade pitch fault on turbine 4 | 2026-02-09: OEM diagnostics completed | 2026-03-13: Repair crew delayed"

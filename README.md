@@ -256,3 +256,18 @@ This project is under the [creative commons license](https://creativecommons.org
 
 ## Contributing
 If you'd like to contribute to this list, check out our [contribution steps here](contributing.md).
+
+---
+
+## Minimal Weekly Energy Site Review App
+This repository now also includes a lightweight Streamlit app for weekly triage of top-problem energy sites.
+
+- App entrypoint: `streamlit_app.py`
+- Setup guide: `WEEKLY_REVIEW_SETUP.md`
+- Sample data: `data/sample_sites.csv`
+
+Run locally:
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
