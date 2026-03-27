@@ -1,0 +1,16 @@
+[
+  {
+    "site_code": "CEN55",
+    "site_name": "Central Campus",
+    "mpan_or_mprn": "223344556677",
+    "issue_type": "Energy spike",
+    "first_observed_date": "2026-03-26",
+    "daily_cost": 210.0,
+    "rank": "1",
+    "narrative_summary": "Site ID: CEN55 Site Name: Central Campus MPAN: 223344556677 Problem: Energy spike Started: 26-03-2026 Cost per day: \u00a3210.00 Rank: 1 Sudden increase in daytime demand after new equipment installation.",
+    "source_email_subject": "Energy spike detected at CEN55",
+    "source_email_date": "Thu, 26 Mar 2026 15:30:00 +0000",
+    "confidence": 1.0,
+    "needs_review": false
+  }
+]

@@ -1,0 +1,16 @@
+From: alerts@example.com
+To: ops@example.com
+Subject: Energy spike detected at CEN55
+Date: Thu, 26 Mar 2026 15:30:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Site ID: CEN55
+Site Name: Central Campus
+MPAN: 223344556677
+Problem: Energy spike
+Started: 26-03-2026
+Cost per day: £210.00
+Rank: 1
+
+Sudden increase in daytime demand after new equipment installation.

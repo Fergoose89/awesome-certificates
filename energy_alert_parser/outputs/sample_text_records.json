@@ -1,0 +1,30 @@
+[
+  {
+    "site_code": "ALP102",
+    "site_name": "Alpha Retail Park",
+    "mpan_or_mprn": "12 3456 7890 123",
+    "issue_type": "Overconsumption",
+    "first_observed_date": "2026-03-24",
+    "daily_cost": 145.9,
+    "rank": "3",
+    "narrative_summary": "Subject: Alert - Overconsumption at Site ALP102 Date: Tue, 25 Mar 2026 07:15:00 +0000 Site Code: ALP102 Site Name: Alpha Retail Park MPAN: 12 3456 7890 123 Issue Type: Overconsumption First Observed: 24/03/2026 Daily Cos...",
+    "source_email_subject": null,
+    "source_email_date": null,
+    "confidence": 1.0,
+    "needs_review": false
+  },
+  {
+    "site_code": "BRV77",
+    "site_name": "Bravo Distribution Hub",
+    "mpan_or_mprn": "998877665544",
+    "issue_type": "Meter offline",
+    "first_observed_date": "2026-03-25",
+    "daily_cost": 38.5,
+    "rank": "P2",
+    "narrative_summary": "Subject: Meter offline warning - BRV77 Date: Wed, 26 Mar 2026 09:45:00 +0000 Location: Bravo Distribution Hub site BRV77 has stopped reporting. MPRN - 998877665544 Detected on: 2026-03-25 Estimated daily cost $38.50 Prio...",
+    "source_email_subject": null,
+    "source_email_date": null,
+    "confidence": 1.0,
+    "needs_review": false
+  }
+]

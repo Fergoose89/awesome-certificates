@@ -1,0 +1,11 @@
+Subject: Meter offline warning - BRV77
+Date: Wed, 26 Mar 2026 09:45:00 +0000
+
+Location: Bravo Distribution Hub
+site BRV77 has stopped reporting.
+MPRN - 998877665544
+Detected on: 2026-03-25
+Estimated daily cost $38.50
+Priority: P2
+
+No meter reads received in the last 24 hours.

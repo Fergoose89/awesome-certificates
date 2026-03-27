@@ -1,0 +1,2 @@
+site_code,site_name,mpan_or_mprn,issue_type,first_observed_date,daily_cost,rank,narrative_summary,source_email_subject,source_email_date,confidence,needs_review
+CEN55,Central Campus,223344556677,Energy spike,2026-03-26,210.0,1,Site ID: CEN55 Site Name: Central Campus MPAN: 223344556677 Problem: Energy spike Started: 26-03-2026 Cost per day: £210.00 Rank: 1 Sudden increase in daytime demand after new equipment installation.,Energy spike detected at CEN55,"Thu, 26 Mar 2026 15:30:00 +0000",1.0,False
