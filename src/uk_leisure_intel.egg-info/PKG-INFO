@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: uk-leisure-intel
+Version: 0.1.0
+Summary: Local intelligence pipeline for UK council-leisure financial analysis
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 # UK Leisure Contract Financial Intelligence Pipeline
 
 A local, reproducible Python pipeline for reconstructing management fees, subsidies, and contract signals between UK councils and leisure operators.

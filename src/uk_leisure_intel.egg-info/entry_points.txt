@@ -1,0 +1,2 @@
+[console_scripts]
+uk-leisure-intel = uk_leisure_intel.cli:main

@@ -1,0 +1,17 @@
+[project]
+name = "uk-leisure-intel"
+version = "0.1.0"
+description = "Local intelligence pipeline for UK council-leisure financial analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+uk-leisure-intel = "uk_leisure_intel.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
