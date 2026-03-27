@@ -1,0 +1,40 @@
+{
+  "council": "INSERT COUNCIL",
+  "operators": ["INSERT OPERATOR"],
+  "operator_aliases": [
+    "INSERT OPERATOR LTD",
+    "INSERT OPERATOR LIMITED",
+    "INSERT OPERATOR TRUST"
+  ],
+  "start_date": "2021-04-01",
+  "end_date": "2026-03-31",
+  "min_fuzzy_score": 82,
+  "data_dir": "data",
+  "output_dir": "reports/output",
+  "sources": {
+    "transparency": {
+      "enabled": true,
+      "mode": "local_or_live",
+      "urls": [],
+      "local_globs": ["data/raw/transparency/*.csv"]
+    },
+    "council_docs": {
+      "enabled": true,
+      "mode": "local",
+      "urls": [],
+      "local_globs": ["data/raw/council_docs/*.csv", "data/raw/council_docs/*.txt"]
+    },
+    "procurement": {
+      "enabled": true,
+      "mode": "local",
+      "urls": [],
+      "local_globs": ["data/raw/procurement/*.csv"]
+    },
+    "operator_financials": {
+      "enabled": true,
+      "mode": "local",
+      "urls": [],
+      "local_globs": ["data/raw/operator_financials/*.csv"]
+    }
+  }
+}

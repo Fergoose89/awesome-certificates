@@ -1,0 +1,26 @@
+{
+  "model": {
+    "direction": "council_to_operator",
+    "subsidised": "yes",
+    "stability": "stable",
+    "total_paid": 18340000.0,
+    "likely_management_fee": 365000.0,
+    "subsidy_estimate": 2725000.0,
+    "explanation": "Derived from classified rows and monthly payment pattern signals."
+  },
+  "patterns": {
+    "recurring_signal": false,
+    "spike_months": [],
+    "trend": "decreasing_or_flat",
+    "inconsistency_flag": false,
+    "monthly_series": {
+      "2023-12": 250000.0,
+      "2024-04": 120000.0,
+      "2024-05": 120000.0,
+      "2024-06": 45000.0,
+      "2024-09": 300000.0,
+      "2024-11": 80000.0,
+      "2025-01": 125000.0
+    }
+  }
+}

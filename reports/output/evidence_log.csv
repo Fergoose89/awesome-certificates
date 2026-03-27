@@ -1,0 +1,10 @@
+source,extract,interpretation,confidence_score
+data/raw/procurement/sample_awards.csv,Capital works and plant replacement leisure site,Matched keyword rule,0.8
+data/raw/operator_financials/sample_operator_metrics.csv,turnover from filing,Positive payment without keyword match,0.5
+data/raw/operator_financials/sample_operator_metrics.csv,operating_deficit from filing,Matched keyword rule,0.8
+data/raw/transparency/sample_payments.csv,Monthly management fee leisure contract,Matched keyword rule,0.8
+data/raw/transparency/sample_payments.csv,Monthly management fee leisure contract,Matched keyword rule,0.8
+data/raw/transparency/sample_payments.csv,Energy support grant,Matched keyword rule,0.8
+data/raw/transparency/sample_payments.csv,Emergency support package leisure centre,Matched keyword rule,0.8
+data/raw/council_docs/sample_structured_report.csv,Operating subsidy approved by cabinet,Matched keyword rule,0.8
+data/raw/transparency/sample_payments.csv,Monthly management fee leisure contract,Matched keyword rule,0.8
