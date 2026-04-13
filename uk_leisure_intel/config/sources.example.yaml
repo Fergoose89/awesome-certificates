@@ -1,0 +1,30 @@
+sources:
+  - name: "Cabinet papers index"
+    type: "url"
+    value: "https://www.your-council.gov.uk/cabinet"
+    enabled: true
+
+  - name: "Budget and finance reports"
+    type: "url"
+    value: "https://www.your-council.gov.uk/budget"
+    enabled: true
+
+  - name: "Planning applications search"
+    type: "url"
+    value: "https://www.your-council.gov.uk/planning"
+    enabled: true
+
+  - name: "Find a Tender search"
+    type: "url"
+    value: "https://www.find-tender.service.gov.uk/Search"
+    enabled: true
+
+  - name: "Council payments page"
+    type: "url"
+    value: "https://www.your-council.gov.uk/open-data/payments"
+    enabled: true
+
+  - name: "Saved local intelligence docs"
+    type: "glob"
+    value: "data/input/saved/**/*"
+    enabled: true
